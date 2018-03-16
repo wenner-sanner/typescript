@@ -5,6 +5,9 @@ var Veiculo = /** @class */ (function () {
         this.modelo = modelo;
         this.velocidade = velocidade;
     }
+    Veiculo.prototype.setVelocidade = function (velocidade) {
+        this.velocidade = velocidade;
+    };
     Veiculo.prototype.modeloCarro = function () {
         return this.modelo;
     };

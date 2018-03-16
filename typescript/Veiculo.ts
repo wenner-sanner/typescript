@@ -7,6 +7,10 @@ export default class Veiculo {
         this.velocidade = velocidade;
     }
 
+    public setVelocidade( velocidade: number ):void {
+        this.velocidade = velocidade;
+    }
+
     public modeloCarro(): string {
         return this.modelo;
     }
