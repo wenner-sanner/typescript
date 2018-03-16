@@ -14,13 +14,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 var Veiculo_1 = __importDefault(require("./Veiculo"));
-var Carro = /** @class */ (function (_super) {
-    __extends(Carro, _super);
-    function Carro(modelo, numeroDePortas) {
-        var _this = _super.call(this, modelo, 200) || this;
-        _this.numeroDePortas = numeroDePortas;
-        return _this;
+var Moto = /** @class */ (function (_super) {
+    __extends(Moto, _super);
+    function Moto(modelo, velocidade) {
+        return _super.call(this, modelo, velocidade) || this;
     }
-    return Carro;
+    return Moto;
 }(Veiculo_1.default));
-exports.default = Carro;
+exports.default = Moto;

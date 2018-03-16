@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Pessoa = /** @class */ (function () {
     function Pessoa(nome, carroPreferido, carroQueTem) {
         this.nome = nome;
@@ -19,3 +20,4 @@ var Pessoa = /** @class */ (function () {
     };
     return Pessoa;
 }());
+exports.default = Pessoa;
