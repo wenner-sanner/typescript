@@ -3,9 +3,9 @@ import Pessoa  from './Pessoa';
 import Concessionaria from './Concessionaria';
 
 /**Concessionaria*/
-let carroA = new Carro('Gol', 4, 200);
-let carroB = new Carro('Bmw', 4, 560);
-let carroC = new Carro('Amarok', 4, 350);
+let carroA = new Carro('Gol', 4,);
+let carroB = new Carro('Bmw', 4);
+let carroC = new Carro('Amarok', 4);
 
 let  listaDeCarros: Array<Carro> = [];
 listaDeCarros.push(carroA);

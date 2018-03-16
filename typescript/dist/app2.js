@@ -7,9 +7,9 @@ var Carro_1 = __importDefault(require("./Carro"));
 var Pessoa_1 = __importDefault(require("./Pessoa"));
 var Concessionaria_1 = __importDefault(require("./Concessionaria"));
 /**Concessionaria*/
-var carroA = new Carro_1.default('Gol', 4, 200);
-var carroB = new Carro_1.default('Bmw', 4, 560);
-var carroC = new Carro_1.default('Amarok', 4, 350);
+var carroA = new Carro_1.default('Gol', 4);
+var carroB = new Carro_1.default('Bmw', 4);
+var carroC = new Carro_1.default('Amarok', 4);
 var listaDeCarros = [];
 listaDeCarros.push(carroA);
 listaDeCarros.push(carroB);
