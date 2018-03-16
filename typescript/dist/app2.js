@@ -79,6 +79,7 @@ carros.forEach(function (carro) {
 console.log('\n');
 var nome = 'Wenner';
 var cliente = new Pessoa(nome, carroB, carroC);
+console.log("Carro que comprou: " + cliente.dizerCarroQueTem());
 concessionaria.mostraListaDeCarros().map(function (carro) {
     if (carro['modelo'] == cliente.dizerCarroPreferido()) {
         cliente.comprarCarro(carro);
