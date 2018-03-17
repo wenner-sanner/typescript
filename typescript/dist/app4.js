@@ -3,10 +3,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-var ConcessionariaDao_1 = __importDefault(require("./ConcessionariaDao"));
+// import ConcessionariaDao from './ConcessionariaDao';
 var Concessionaria_1 = __importDefault(require("./Concessionaria"));
-var dao = new ConcessionariaDao_1.default();
+var Dao_1 = require("./Dao");
+// let dao: ConcessionariaDao = new ConcessionariaDao();
 var concessionaria = new Concessionaria_1.default('', []);
+var dao = new Dao_1.Dao();
 dao.inserir(concessionaria);
 dao.atualizar(concessionaria);
 dao.remover(1);
